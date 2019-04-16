@@ -1,0 +1,157 @@
+    .panel {
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 0;
+        background-color: #FFF;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 2px 0 rgba(0,0,0,.12);
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 2px 0 rgba(0,0,0,.12);
+    }
+    /*  mc-banner */
+    @font-face {
+        font-family: "Minecraft";
+        font-style: normal;
+        font-weight: 400;
+        src: url("fonts/minecraft_font.eot") format("eot"), 
+             url("fonts/minecraft_font.woff") format("woff"), 
+             url("fonts/minecraft_font.ttf") format("truetype"), 
+             url("fonts/minecraft_font.svg#Minecraft") format("svg");
+    }
+    .mc-banner-in{
+        text-align: left;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 0;
+        background-color: #FFF;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 2px 0 rgba(0,0,0,.12);
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 2px 0 rgba(0,0,0,.12);
+        font-family: Minecraft, sans-serif;
+        margin: auto;
+        margin-right:8px;
+        margin-left:8px;
+        color: white;
+        background: url(images/dirt.png) repeat;
+        background-size: 64px;
+        background-color: #18100A;
+        position: relative;
+    }
+    .mc-banner-in .mc-top{
+        display: inline-block;
+        vertical-align: middle;
+        text-overflow: ellipsis;
+        max-width: 100%;
+    }
+    .mc-banner-in .mc-sub-top{
+        display: inline-block;
+        vertical-align: top;
+        margin-left:.5rem;
+        margin:-2px 0 0 .5rem;
+    }
+    .mc-banner-in:after {
+        clear: both;
+    }
+    .mc-banner-in .mc-title{
+        font-family: Minecraft, sans-serif;
+        display: inline-block;
+        vertical-align: middle;
+        margin:0 0 .35rem 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .mc-banner-in .mc-header{
+        font-family: Minecraft, sans-serif;
+        color: #808080;
+        display: block;
+        white-space: normal;
+        text-overflow: ellipsis;
+        position: absolute;
+    }
+    .mc-banner-in .mc-top img{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .mc-banner-in .ping-badge.great{
+        background: url(images/icons.png) 0px 239px;
+        left: 0;
+        height: 8px;
+        width: 8px;
+        display:inline-block;
+        -ms-transform: scale(2.5, 2.5);
+        -webkit-transform: scale(2.5, 2.5);
+        transform: scale(2.5, 2.5);
+        image-rendering: pixelated;
+        margin: 0 5px 0 0;
+    }
+    .mc-banner-in .ping-badge.bad{
+        background: url(images/icons.png) 0px 200px;
+        left: 0;
+        height: 8px;
+        width: 8px;
+        display: inline-block;
+        -ms-transform: scale(2.5, 2.5);
+        -webkit-transform: scale(2.5, 2.5);
+        transform: scale(2.5, 2.5);
+        image-rendering: pixelated;
+        margin: 0 5px 0 0;
+    }
+    .mc-button {
+      height: 40px;
+      width: 135px;
+      outline: 2px solid black;
+      margin: 0;
+      display: block;
+      background-image: url('images/button_center.png');
+      background-repeat: repeat;
+      padding: 0;
+      font-family: Minecraft;
+      text-align: center;
+      color: white;
+      text-shadow: 2px 2px #3F3F28;
+      border-bottom: 4px solid #565656;
+      border-right: 2px solid #565656;
+      border-left: 2px solid #AAA;
+      border-top: 2px solid #AAA;
+      box-sizing: border-box;
+      font-size: 16px;
+      text-decoration:none;
+      background-color:#6D6D6D;
+      -webkit-user-select: none;
+    }
+
+    .mc-button span {
+      position: relative;
+      line-height: 40px;
+      bottom: 3px;
+      text-decoration:none;
+    }
+
+    .mc-button:hover {
+      border-bottom: 4px solid #59639A;
+      border-right: 2px solid #59639A;
+      border-left: 2px solid #BDC6FF;
+      border-top: 2px solid #BDC6FF;
+      background-image: url('images/button_active_center.png');
+      color: #FFFFA0;
+      text-decoration:none;
+      background-color:#7C86BE;
+    }
+    #playercount{
+        float:right;
+        display:inline;
+        margin:-2px 0 0 0;
+        position: absolute;
+        right: 15px;
+    }
+    .mc-tooltip {
+        text-shadow: 0.1em 0.1em #333;
+        display: inline-block;
+        font-family: Minecraft;
+        color: #fff;
+        background-color: #110210;
+        border: 4px solid;
+        border-image: url(images/mc-tooltip-border-12x12.png) 4 repeat;
+        padding: 3px 4px 4px 4px;
+        background-clip: padding-box;
+    }
+    #playerlist{
+        color:#808080;
+    }
